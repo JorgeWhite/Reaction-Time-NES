@@ -1,0 +1,12 @@
+# cc65/NES build artifacts
+*.o
+*.nes
+*.map
+*.lbl
+*.dbg
+*.lst
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
