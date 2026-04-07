@@ -51,14 +51,14 @@ The game increments a reaction frame counter once per NMI during the GO state.
 To represent quantized frame timing as milliseconds, each trial is shown as an interval using a shifted bucket model:
 
 $$
-\text{lower_ms} = \max(0, n - 2) \times 16.67
+L_{ms} = \max(0, n - 2) \times 16.67
 $$
 
 $$
-\text{upper_ms} = \max(0, n - 1) \times 16.67
+U_{ms} = \max(0, n - 1) \times 16.67
 $$
 
-where $n$ is the captured reaction frame count.
+where $n$ is the captured reaction frame count, $L_{ms}$ is the lower bound, and $U_{ms}$ is the upper bound.
 
 Session-average ms is computed from the average of per-trial midpoints.
 
