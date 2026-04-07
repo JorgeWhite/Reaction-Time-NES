@@ -140,6 +140,11 @@ On success, this produces:
 3. Start tests from the menu.
 4. Use Settings to change AO length as needed.
 
+## Download ROM
+
+- Latest release ROM: [reaction.nes](https://github.com/JorgeWhite/Reaction-Time-NES/releases/latest/download/reaction.nes)
+- All releases: [Releases page](https://github.com/JorgeWhite/Reaction-Time-NES/releases)
+
 ## Troubleshooting
 
 - `Could not find ca65...`
